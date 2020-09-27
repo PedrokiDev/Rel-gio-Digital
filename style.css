@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Josefin Sans, sans-serif;
+}
+
+body {
+    background: url(./download.png);
+}
+
+.main {
+    background: #ccc;
+    padding: 30px;
+    width: 400px;
+    height: 175px;
+    margin: 100px auto;
+    position: relative;
+}
+
+.badge {
+    width: 96px;
+    background: #e66357;
+    color: white;
+    padding: 5px 10px;
+    font-weight: bold;
+    position: absolute;
+    top: -15px;
+    left: 39%;
+}
+
+.badge > p {
+    text-align: center;
+    font-size: 17px;
+}
+
+.clock {
+    background: #ebebeb;
+    text-align: center;
+    font-size: 55px;
+    height: 100%;
+    padding-top: 30px;
+    border-radius: 4px;
+}
